@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    max-width: 1170px;
+    width: 81%;
+    margin: 0 auto;
+}
+
+.big-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.small-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.all-para {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.all-button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Header Section */
+.nav-name {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-tavel {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.fa-bars{
+    display: none ;
+}
+
+.nav-touch {
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+nav>div>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.Home {
+    color: #FF5400;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+nav>div>ul>li>a {
+    text-decoration: none;
+    padding-left: 2.75rem;
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.25rem;
+    margin-bottom: 3rem;
+}
+
+.header-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+
+    height: 500px;
+    text-align: center;
+
+
+}
+
+.header-img>h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 6.6rem;
+}
+
+.header-img>p {
+    color: #FFF;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.input-box-section {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+
+
+}
+
+.input-box-section>div>input {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    border: none;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .header-img{
+        height:  483px;
+        height: 100%;
+    }
+    
+    nav>div>ul {
+        display: none;
+    }
+
+    .nav-tavel,
+    .nav-touch {
+        font-size: 1.5rem
+    }
+
+    .nav-name div>img {
+        width: 35px;
+    }
+    .header-img>h1{
+        font-size: 22px;
+        padding-top: 32px;
+
+    }
+    .input-box-section {
+        flex-direction: column;
+    }
+    .fa-solid{
+        display: flex;
+        
+    }
+    .nav-heading{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    .input-box-section>div>input{
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    .header-img>p {
+        padding-bottom: 0;
+    }
+    .all-button{
+        font-size: 16px;
+        width: 190px;
+        text-align: center;
+    }
+}
