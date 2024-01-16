@@ -226,8 +226,151 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+    margin-bottom: 5rem;
 }
 
+/* Choose Your Destination */
+
+.choose-us {
+    text-align: center;
+    margin: auto 18.7rem;
+}
+
+.choose-us-title {
+    margin-bottom: 1.5rem;
+}
+
+.choose-us-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.choose-us-box1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem 2.5rem 2rem 2rem;
+}
+
+.choose-us-box2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 2rem 2.5rem 2rem 2rem;
+}
+
+.choose-us-box3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: auto 18.7rem;
+    padding: 2rem 2.5rem 2rem 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* get-lost-section */
+
+.get-lost-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-lost-img {
+    width: 100%;
+}
+
+
+
+
+/* News Letter Section */
+
+.News-letter-section {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.News-letter-section p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.News-letter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 2.5rem;
+}
+
+.News-letter-section hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.News-Letter-input {
+    width: 355px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 1rem 1.25rem;
+    border: 0;
+    gap: 1rem;
+}
+
+.News-Letter-input2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.News-Letter-button {
+    width: 393px;
+}
+
+/* footer-section */
+
+footer {
+    text-align: center;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.footer-section {
+    max-width: 1170px;
+    width: 81%;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    justify-content: center;
+    margin: 1.5rem auto;
+    padding-top: 5rem;
+
+}
+
+.footer-para {
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+
+}
+
+.footer-img {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer-last-para {
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+}
 
 /* Mobile Device */
 
@@ -310,36 +453,125 @@ nav {
     }
 
     .columns-1-img-1 .Maldives,
-    .columns-1-img-2 .Indonesia,
-    .columns-2-img-1 .Srilanka,
-    .columns-3-img-1 .Bangladesh,
+    .columns-1-img-2 .Indonesia {
+        position: relative;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-40%, -290%);
+        color: #FFF;
+        font-size: 28px;
+        padding: 0;
+        margin: 0;
+        width: 150px;
+    }
+
+    .columns-2-img-1 .Srilanka {
+        position: relative;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-40%, -390%);
+        color: #FFF;
+        font-size: 28px;
+        padding: 0;
+        margin: 0;
+        width: 150px;
+    }
+
+    .columns-3-img-1 .Bangladesh {
+        position: relative;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -350%);
+        color: #FFF;
+        font-size: 28px;
+        padding: 0;
+        margin: 0;
+        width: 150px;
+    }
+
     .columns-3-img-2 .Bandarban {
         position: relative;
         left: 50%;
         bottom: 50%;
-        transform: translate(-20%, -300%);
+        transform: translate(-55%, -250%);
         color: #FFF;
         font-size: 28px;
         padding: 0;
+        margin: 0;
+        width: 150px;
+
     }
 
     .columns-2-img-2 .North-America {
         position: relative;
         left: 50%;
         bottom: 50%;
-        transform: translate(-30%, -330%);
+        transform: translate(-40%, -180%);
         color: #FFF;
         font-size: 28px;
         padding: 0;
+        margin: 0;
+        width: 150px;
+
     }
 
     .columns-2-img-3 .Kashmir {
         position: relative;
         left: 50%;
         bottom: 50%;
-        transform: translate(-17%, -500%);
+        transform: translate(-35%, -480%);
         color: #FFF;
         font-size: 28px;
         padding: 0;
+        margin: 0;
+        width: 150px;
 
     }
+
+    /* Choose Your Destination */
+
+    .choose-us {
+        text-align: center;
+        margin: 0;
+    }
+
+    .choose-us-box {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .choose-us-box3 {
+        margin: 0;
+    }
+
+
+
+
+
+
+
+
+    /* .get-lost-section */
+
+    .get-lost-section {
+        flex-direction: column;
+    }
+
+    /* News Letter Section */
+
+    .News-letter-section {
+        flex-direction: column;
+    }
+    .news-letter-ing {
+        width: 100%;
+    
+    }
+    .News-Letter-input{
+        width: 68%;
+    }
+
+    .footer-para {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
